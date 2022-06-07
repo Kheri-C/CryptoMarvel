@@ -1,3 +1,4 @@
+import 'package:cryto/app.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'dart:convert';
@@ -13,7 +14,7 @@ void main() => runApp(
       appBar: AppBar(
         title: Text("Marvel APP"),
       ),
-      body: HelloWorldStateFulWidget(texto: "Hello there from ObiWan"),
+      body: MarvelApp(),
     ),
   )
 );
